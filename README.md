@@ -31,6 +31,13 @@ pdf-chatbot-fastapi/
   -Best matching chunks are fed to LangChain, and a response is generated.
 
 5. Response is returned to user via the FastAPI backend.
+   
+## Features
+
+- **Upload PDF**: Upload PDF files to the server, which are processed and stored in a vector store.
+- **WebSocket Chat**: Real-time question answering using a WebSocket endpoint.
+- **Document Retrieval**: Retrieve source documents related to the answered questions.
+- **Memory Integration**: Uses conversation history to improve response relevance.
 
 ### Endpoints
 
